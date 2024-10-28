@@ -1,0 +1,396 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_1cee65d11b667ae03d781fb742e04162 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_1cee65d11b667ae03d781fb742e04162" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_1cee65d11b667ae03d781fb742e04162 = L.map(
+                "map_1cee65d11b667ae03d781fb742e04162",
+                {
+                    center: [-0.20514000000000002, -78.49937316666667],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 13,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_6bddd9193b1c88975c0815c7bcb4d833 = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors", "detectRetina": false, "maxNativeZoom": 19, "maxZoom": 19, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            );
+        
+    
+            tile_layer_6bddd9193b1c88975c0815c7bcb4d833.addTo(map_1cee65d11b667ae03d781fb742e04162);
+        
+    
+            var marker_ea61eb431de2a69834c8beeae3249a12 = L.marker(
+                [-0.187147, -78.489319],
+                {}
+            ).addTo(map_1cee65d11b667ae03d781fb742e04162);
+        
+    
+            var icon_6317045a676ef54cd9e65ea9c40a55ac = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_ea61eb431de2a69834c8beeae3249a12.setIcon(icon_6317045a676ef54cd9e65ea9c40a55ac);
+        
+    
+        var popup_447fd5eef6b2e587d6a10ac87133d507 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_9a10f26f70a4bcacd345abecb3f0fef9 = $(`<div id="html_9a10f26f70a4bcacd345abecb3f0fef9" style="width: 100.0%; height: 100.0%;">Paula Freire</div>`)[0];
+                popup_447fd5eef6b2e587d6a10ac87133d507.setContent(html_9a10f26f70a4bcacd345abecb3f0fef9);
+            
+        
+
+        marker_ea61eb431de2a69834c8beeae3249a12.bindPopup(popup_447fd5eef6b2e587d6a10ac87133d507)
+        ;
+
+        
+    
+    
+            var marker_054afca421796c83c1a3eb43f3bdca45 = L.marker(
+                [-0.142653, -78.481401],
+                {}
+            ).addTo(map_1cee65d11b667ae03d781fb742e04162);
+        
+    
+            var icon_35bea5a01067e992f66235cb5f4f7772 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_054afca421796c83c1a3eb43f3bdca45.setIcon(icon_35bea5a01067e992f66235cb5f4f7772);
+        
+    
+        var popup_33c1595773e1f79e63b4f45c28452867 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_2a153ef4ee29cbad9e93bb2b07eae8a8 = $(`<div id="html_2a153ef4ee29cbad9e93bb2b07eae8a8" style="width: 100.0%; height: 100.0%;">Rubén Borrero</div>`)[0];
+                popup_33c1595773e1f79e63b4f45c28452867.setContent(html_2a153ef4ee29cbad9e93bb2b07eae8a8);
+            
+        
+
+        marker_054afca421796c83c1a3eb43f3bdca45.bindPopup(popup_33c1595773e1f79e63b4f45c28452867)
+        ;
+
+        
+    
+    
+            var marker_322be2f7d8d2029bb48e63f5bc7e0849 = L.marker(
+                [-0.207258, -78.484325],
+                {}
+            ).addTo(map_1cee65d11b667ae03d781fb742e04162);
+        
+    
+            var icon_5abcc2ac3f6fe05ffd8aa8940603e1e9 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_322be2f7d8d2029bb48e63f5bc7e0849.setIcon(icon_5abcc2ac3f6fe05ffd8aa8940603e1e9);
+        
+    
+        var popup_1828ca4b2411995f954d7afc1b59b826 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_e75e53e6b9cb0bbde7f80181e5eabbfe = $(`<div id="html_e75e53e6b9cb0bbde7f80181e5eabbfe" style="width: 100.0%; height: 100.0%;">Sarah Echeverría</div>`)[0];
+                popup_1828ca4b2411995f954d7afc1b59b826.setContent(html_e75e53e6b9cb0bbde7f80181e5eabbfe);
+            
+        
+
+        marker_322be2f7d8d2029bb48e63f5bc7e0849.bindPopup(popup_1828ca4b2411995f954d7afc1b59b826)
+        ;
+
+        
+    
+    
+            var marker_05486bb15b90610a17c9ac06efcfb298 = L.marker(
+                [-0.313357, -78.543156],
+                {}
+            ).addTo(map_1cee65d11b667ae03d781fb742e04162);
+        
+    
+            var icon_816c40bc23f67366406b1152a8759c47 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_05486bb15b90610a17c9ac06efcfb298.setIcon(icon_816c40bc23f67366406b1152a8759c47);
+        
+    
+        var popup_e883d94591cfc37e3d88d93eae675439 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c8efc4b5d50cbb1e013511899b458465 = $(`<div id="html_c8efc4b5d50cbb1e013511899b458465" style="width: 100.0%; height: 100.0%;">Abigail Cervantes</div>`)[0];
+                popup_e883d94591cfc37e3d88d93eae675439.setContent(html_c8efc4b5d50cbb1e013511899b458465);
+            
+        
+
+        marker_05486bb15b90610a17c9ac06efcfb298.bindPopup(popup_e883d94591cfc37e3d88d93eae675439)
+        ;
+
+        
+    
+    
+            var marker_7bd360c45ace4572fa9641eaf6d86dbd = L.marker(
+                [-0.189336, -78.497939],
+                {}
+            ).addTo(map_1cee65d11b667ae03d781fb742e04162);
+        
+    
+            var icon_e12a78d3a5adb4006b7e75cee0c360e3 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_7bd360c45ace4572fa9641eaf6d86dbd.setIcon(icon_e12a78d3a5adb4006b7e75cee0c360e3);
+        
+    
+        var popup_34f8321741065e489c46e5aee1b15673 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_7fdc3883f450473d014263e8090e8a19 = $(`<div id="html_7fdc3883f450473d014263e8090e8a19" style="width: 100.0%; height: 100.0%;">Andrea Freire</div>`)[0];
+                popup_34f8321741065e489c46e5aee1b15673.setContent(html_7fdc3883f450473d014263e8090e8a19);
+            
+        
+
+        marker_7bd360c45ace4572fa9641eaf6d86dbd.bindPopup(popup_34f8321741065e489c46e5aee1b15673)
+        ;
+
+        
+    
+    
+            var marker_6b44fdd837c567facfbc3cf86927eef4 = L.marker(
+                [-0.18702, -78.492972],
+                {}
+            ).addTo(map_1cee65d11b667ae03d781fb742e04162);
+        
+    
+            var icon_846b011cb6abcc290c098511920bb494 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_6b44fdd837c567facfbc3cf86927eef4.setIcon(icon_846b011cb6abcc290c098511920bb494);
+        
+    
+        var popup_74c3a2b6b038b7bc66e25711f4513067 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c5c96f29d8004befd0f8476c81388eb4 = $(`<div id="html_c5c96f29d8004befd0f8476c81388eb4" style="width: 100.0%; height: 100.0%;">Keila Cabrera</div>`)[0];
+                popup_74c3a2b6b038b7bc66e25711f4513067.setContent(html_c5c96f29d8004befd0f8476c81388eb4);
+            
+        
+
+        marker_6b44fdd837c567facfbc3cf86927eef4.bindPopup(popup_74c3a2b6b038b7bc66e25711f4513067)
+        ;
+
+        
+    
+    
+            var marker_7d9d48cf227c218d5c20ffebb32df20c = L.marker(
+                [-0.173744, -78.47922],
+                {}
+            ).addTo(map_1cee65d11b667ae03d781fb742e04162);
+        
+    
+            var icon_6c6c92a0cbb1f4cc2c35756ff3d4a2ba = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_7d9d48cf227c218d5c20ffebb32df20c.setIcon(icon_6c6c92a0cbb1f4cc2c35756ff3d4a2ba);
+        
+    
+        var popup_3716428977cebd94ac58a65fc14442a9 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_0473ba8f1f257a1dcd566810f22827ef = $(`<div id="html_0473ba8f1f257a1dcd566810f22827ef" style="width: 100.0%; height: 100.0%;">Shaden Mendoza</div>`)[0];
+                popup_3716428977cebd94ac58a65fc14442a9.setContent(html_0473ba8f1f257a1dcd566810f22827ef);
+            
+        
+
+        marker_7d9d48cf227c218d5c20ffebb32df20c.bindPopup(popup_3716428977cebd94ac58a65fc14442a9)
+        ;
+
+        
+    
+    
+            var marker_d5a1e17a3b2559d371dcaef599b59f17 = L.marker(
+                [-0.149103, -78.481177],
+                {}
+            ).addTo(map_1cee65d11b667ae03d781fb742e04162);
+        
+    
+            var icon_61908ba61ee8ac8ef922f39706665d74 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_d5a1e17a3b2559d371dcaef599b59f17.setIcon(icon_61908ba61ee8ac8ef922f39706665d74);
+        
+    
+        var popup_66cd645a0ae0d63c2fbe7b1a0535a342 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_224b094bb2eab74c963324d85cb682b9 = $(`<div id="html_224b094bb2eab74c963324d85cb682b9" style="width: 100.0%; height: 100.0%;">Paul Cárdenas</div>`)[0];
+                popup_66cd645a0ae0d63c2fbe7b1a0535a342.setContent(html_224b094bb2eab74c963324d85cb682b9);
+            
+        
+
+        marker_d5a1e17a3b2559d371dcaef599b59f17.bindPopup(popup_66cd645a0ae0d63c2fbe7b1a0535a342)
+        ;
+
+        
+    
+    
+            var marker_fb3f2b8df44b743df8aca8d8bca2610a = L.marker(
+                [-0.239722, -78.524968],
+                {}
+            ).addTo(map_1cee65d11b667ae03d781fb742e04162);
+        
+    
+            var icon_96237c00f996b1a482f40a386ceafcd1 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_fb3f2b8df44b743df8aca8d8bca2610a.setIcon(icon_96237c00f996b1a482f40a386ceafcd1);
+        
+    
+        var popup_89f25cc42c4e8379c9d0380466e9e440 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_cdb2b40e5e31661fd59dbec1d615dfc7 = $(`<div id="html_cdb2b40e5e31661fd59dbec1d615dfc7" style="width: 100.0%; height: 100.0%;">Kathya Bermúdez</div>`)[0];
+                popup_89f25cc42c4e8379c9d0380466e9e440.setContent(html_cdb2b40e5e31661fd59dbec1d615dfc7);
+            
+        
+
+        marker_fb3f2b8df44b743df8aca8d8bca2610a.bindPopup(popup_89f25cc42c4e8379c9d0380466e9e440)
+        ;
+
+        
+    
+    
+            var marker_2eeec65800c04168e853b707b8d91105 = L.marker(
+                [-0.185732, -78.481881],
+                {}
+            ).addTo(map_1cee65d11b667ae03d781fb742e04162);
+        
+    
+            var icon_428f1be079deff64f8ec96ff1220f87e = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_2eeec65800c04168e853b707b8d91105.setIcon(icon_428f1be079deff64f8ec96ff1220f87e);
+        
+    
+        var popup_dbae53a508b23d99afd1d9107787a82e = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_138b31bccfd95482d112754abc77effa = $(`<div id="html_138b31bccfd95482d112754abc77effa" style="width: 100.0%; height: 100.0%;">Eduarda Navarrete</div>`)[0];
+                popup_dbae53a508b23d99afd1d9107787a82e.setContent(html_138b31bccfd95482d112754abc77effa);
+            
+        
+
+        marker_2eeec65800c04168e853b707b8d91105.bindPopup(popup_dbae53a508b23d99afd1d9107787a82e)
+        ;
+
+        
+    
+    
+            var marker_f4a61f7fa0c771b900808b546d049648 = L.marker(
+                [-0.186847, -78.488997],
+                {}
+            ).addTo(map_1cee65d11b667ae03d781fb742e04162);
+        
+    
+            var icon_97df46216b5fede6268db441c090aa30 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_f4a61f7fa0c771b900808b546d049648.setIcon(icon_97df46216b5fede6268db441c090aa30);
+        
+    
+        var popup_dff61c64a0f360d55bf5edfa3edc73be = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_0cdc21bee83dfcc62e4686bd4cdf3efc = $(`<div id="html_0cdc21bee83dfcc62e4686bd4cdf3efc" style="width: 100.0%; height: 100.0%;">Martín Mideros</div>`)[0];
+                popup_dff61c64a0f360d55bf5edfa3edc73be.setContent(html_0cdc21bee83dfcc62e4686bd4cdf3efc);
+            
+        
+
+        marker_f4a61f7fa0c771b900808b546d049648.bindPopup(popup_dff61c64a0f360d55bf5edfa3edc73be)
+        ;
+
+        
+    
+    
+            var marker_bcc0258fd0c832667136f761d18c2b45 = L.marker(
+                [-0.299761, -78.547123],
+                {}
+            ).addTo(map_1cee65d11b667ae03d781fb742e04162);
+        
+    
+            var icon_91a0252980f9e654d41f9943044c2429 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_bcc0258fd0c832667136f761d18c2b45.setIcon(icon_91a0252980f9e654d41f9943044c2429);
+        
+    
+        var popup_e40e34b909347ba8a550b97b5e53c13c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_51e95c755b415259e51ea7509b312cda = $(`<div id="html_51e95c755b415259e51ea7509b312cda" style="width: 100.0%; height: 100.0%;">Richard Encalada</div>`)[0];
+                popup_e40e34b909347ba8a550b97b5e53c13c.setContent(html_51e95c755b415259e51ea7509b312cda);
+            
+        
+
+        marker_bcc0258fd0c832667136f761d18c2b45.bindPopup(popup_e40e34b909347ba8a550b97b5e53c13c)
+        ;
+
+        
+    
+</script>
+</html>
